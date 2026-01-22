@@ -1,1 +1,0 @@
-# Trabajo-2nd-trimestre-sost
