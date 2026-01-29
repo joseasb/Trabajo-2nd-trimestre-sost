@@ -8,9 +8,9 @@
 
 ## Integrantes del grupo
 
-- Nombre Apellido 1  
-- Nombre Apellido 2  
-- Nombre Apellido 3  
+- Alejandro Vega García
+- José Andrés Santos Balan 
+- Santiago Mefle Ragel 
 
 ---
 
@@ -18,9 +18,9 @@
 
 | Integrante          | Tareas asignadas                                     |
 |---------------------|-----------------------------------------------------|
-| Nombre Apellido 1   | Desarrollo de la página `producto.html`, diseño CSS |
-| Nombre Apellido 2   | Programación JavaScript, funcionalidad dinámica      |
-| Nombre Apellido 3   | Contenidos sobre sostenibilidad y economía circular  |
+| Alejandro Vega García  | Contenidos sobre sostenibilidad, desarrollo HTML pagina sostenibilidad  |
+| José Andrés Santos Balan   | presentación del servicio,      |
+| Santiago Mefle Ragel   | Contenidos sobre economía circular  |
 
 ---
 
@@ -28,7 +28,7 @@
 
 | Fecha         | Actividad realizada                                      |
 |---------------|---------------------------------------------------------|
-| Semana 1      | Definición del producto y estructura inicial del repo.  |
+| Semana 1      | Definición de la idea y estructura inicial del repo.  |
 | Semana 2      | Desarrollo de páginas HTML y estilos CSS.                |
 | Semana 3      | Implementación de funcionalidades JavaScript.            |
 | Semana 4      | Revisión, pruebas, corrección de errores y despliegue.   |
