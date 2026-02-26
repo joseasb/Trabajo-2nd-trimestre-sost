@@ -19,9 +19,9 @@ main {
     box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 }
 
-/* ===== CABECERA (Se queda arriba, no sigue el scroll) ===== */
+/* ===== CABECERA ===== */
 #headerEC {
-    position: relative; /* Cambiado de sticky a relative para que se quede en el inicio */
+    position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,24 +39,20 @@ main {
     color: #ffffff;
 }
 
-/* ===== MENÚ SUPERIOR (Puntos Internos) ===== */
+/* ===== MENÚ SUPERIOR (Puntos por html) ===== */
 .menu #lista-puntos {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* SEPARACIÓN entre botones de navegación */
+    gap: 20px; 
     margin-top: 10px;
-}
-
-.menu #lista-puntos li {
-    margin: 5px; /* Refuerzo de separación para móviles */
 }
 
 .menu #lista-puntos a {
     color: white;
     text-decoration: none;
-    padding: 12px 22px; /* Más espacio interno */
+    padding: 10px 20px; 
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 30px;
@@ -73,14 +69,14 @@ main {
 
 /* ===== MENÚ LATERAL ===== */
 .side-menu {
-    position: fixed; /* Cambiado para que no flote sobre el contenido al bajar */
+    position: fixed; 
     top: 25px;
     left: 25px;
     z-index: 200;
 }
 
 #MenuDesplegable {
-    background-color: #FF9800; /* Naranja más vivo para destacar */
+    background-color: #FF9800; 
     color: white;
     border: none;
     padding: 12px 24px;
@@ -97,7 +93,7 @@ main {
 
 #lista {
     list-style: none;
-    background-color: #ffffff; /* Fondo blanco para contraste */
+    background-color: #ffffff; 
     margin-top: 10px;
     width: 220px;
     border-radius: 12px;
@@ -133,11 +129,11 @@ section {
 
 section h2 {
     margin-bottom: 25px;
-    background-color: #2e7d32; /* Verde fuerte para títulos */
+    background-color: #2e7d32; 
     text-align: center;
     padding: 18px; 
     color: white;
-    border-radius: 50px; /* Bordes redondeados tipo "pastilla" */
+    border-radius: 50px; 
 }
 
 h4 {
