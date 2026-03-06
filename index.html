@@ -3,13 +3,12 @@
     <head>
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economía Circular</title>
+    <title>ClimaBarrio-Índice</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/main.js" defer></script>
     </head>
     <body>
-        <header>
-            <header id="headerEC">
+        <header id="headerEC">
         <nav class="side-menu">
              <button id="MenuDesplegable">☰</button>
             <ul id="lista" class="hidden">
@@ -33,7 +32,7 @@
     <main id="indexMain">
         <section id="Presentación">
             <h4>¿De qué trata ClimaBarrio?</h4>
-            <img src= "assets/LogotipoClimaBarrio.png">
+            <img src= "assets/LogotipoClimaBarrio.png" loading="lazy" alt="Logotipo ClimaBarrio">
             <p>ClimaBarrio es un nuevo servicio que recaba información del medio ambiente, dando con exactitud datos sobre
                 temperatura, humedad, ruido, calidad del aire y radiación solar. Son similares a las estaciones meteorológicas
                 pero a escala hiperlocal, es decir, escala barrio(por eso el nombre).
@@ -73,7 +72,7 @@
                     <legend><h3>Formulario</h3></legend>
                     <input id="nombre" placeholder="Nombre" type="text" required minlength="2"><br>
                     <input id="apellidos" placeholder="Apellidos" type="text" required minlength="2"><br>
-                    <input id="correo" placeholder="ejemplo@gmail.com" type="text"><br>
+                    <input id="correo" placeholder="ejemplo@gmail.com" type="email" required><br>
                     <textarea id="texto" rows="6" columns="20" placeholder="Cuerpo del mensaje" type="text" required minlength="1"></textarea><br>
                     <button type="submit" id="btnEnviar">Enviar</button>
                     </fieldset>
