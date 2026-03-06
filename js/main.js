@@ -1,5 +1,9 @@
 const btnDesplegable= document.querySelector("#MenuDesplegable");
-const formulario = document.querySelector("#formulario")
+const formulario = document.querySelector("#formulario");
+const nombre= document.querySelector("#nombre");
+const apellidos= document.querySelector("#apellidos");
+const correo = document.querySelector("#correo");
+const texto = document.querySelector("#texto");
 
 btnDesplegable.addEventListener("click", () => {
   const lista = document.querySelector("#lista");
@@ -10,11 +14,6 @@ btnDesplegable.addEventListener("click", () => {
 
 formulario.addEventListener("submit", (event) =>{
 event.preventDefault();
-const nombre= document.querySelector("#nombre");
-const apellidos= document.querySelector("#apellidos");
-const correo = document.querySelector("#correo");
-const texto = document.querySelector("#texto");
-
 function ValidarNombre(){
   if(!nombre.checkValidity()){
     nombre.reportValidity();
@@ -35,7 +34,14 @@ function ValidarApellidos(){
 
 function ValidarCorreo() {
 
-  const corrVal= correo.value;
+if(!correo.checkValidity()){
+    correo.reportValidity();
+    return false;
+} else{
+  return true;
+}
+
+  /*const corrVal= correo.value;
   // 1. Debe contener un @
   const posArroba = corrVal.indexOf("@");
   if (posArroba === -1) return false;
@@ -56,7 +62,7 @@ function ValidarCorreo() {
   // 6. No puede haber espacios
   if (corrVal.includes(" ")) return false;
 
-  return true;
+  return true;*/
 }
 
 function ValidarTexto(){
