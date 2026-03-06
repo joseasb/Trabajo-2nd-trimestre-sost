@@ -3,11 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/main.js" defer></script>
     <title>Presentacion del producto</title>
+    <link rel="icon" href="../assets/LogotipoClimaBarrio.png">
 </head>
 <body>
-    <h1>Clima Barrio</h1>
+    <header id ="headerPROD">
+         <nav class="side-menu">
+             <button id="MenuDesplegable">☰</button>
+            <ul id="lista" class="hidden">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/ciclo-vida.html">Ciclo de Vida</a></li>
+                <li><a href="../pages/economia-circular.html">Econonia Circular</a></li>
+                <li><a href="../pages/sostenibilidad.html">Sostenibilidad</a></li>
+            </ul>
+        </nav>
+        <h1>¿Que es ClimaBarrio?</h1>
+            <nav class="menu">
+                <ul id="lista-puntos">
+                    <li><a href="#ClimaBarrio">Que es Clima Barrio 🌍</a></li>
+                    <li><a href="#Problema">¿Que problema intenta resolver Clima Barrio? 🔎</a></li>
+                    <li><a href="#Dirigido">¿A quien va dirigido Clima Barrio 👤</a></li>
+                    <li><a href="#Actualidad">¿Por qué Clima Barrio es necesario en la actualidad?🕒</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id = "ClimaBarrio">
+            <h2 class ="h2PRODUCTO">Que es Clima Barrio🌍</h2>
+            <p>
+               <strong>Clima Barrio</strong> es una red distribuida de microsensores ambientales de bajo coste instalados en barrios y zonas menos pobladas para medir en tiempo real variables como:
+                <ul>
+                    <li>🌡 Temperatura</li>
+                    <li>💧 Humedad</li>
+                    <li>🌫 Calidad del aire (CO₂, partículas PM2.5)</li>
+                    <li>🔊 Nivel de ruido</li>
+                    <li>📊 Presión atmosférica</li>
+                </ul>
+            </p>
+            <p>
+               Estos sensores se colocan en balcones, farolas, edificios comunitarios o espacios públicos, permitiendo obtener datos ambientales hiperlocales que normalmente no se registran en estaciones oficiales. 
+            </p>
+            <p>
+                El sistema recopila, almacena y visualiza los datos en una plataforma digital accesible para ciudadanos y administraciones.
+            </p>
+        </section>
+        <section id = "Problema">    
+            <h2 class ="h2PRODUCTO">¿Que problema intenta resolver Clima Barrio?🔎</h2>
+                <p>Actualmente, la mayoría de estaciones meteorológicas y de calidad del aire:</p>
+                <ul>
+                    <li>Están concentradas en grandes ciudades</li>
+                    <li>Son costosas</li>
+                    <li>Cubren áreas amplias con pocos puntos de medición</li>
+                    <li>No reflejan diferencias entre barrios</li>
+                </ul>
+                <p><strong>🔎 Problema principal:</strong></p>
+                <p>
+                    Falta de datos ambientales detallados a nivel de barrio o zonas rurales.
+                </p>
+                <p>Esto provoca:</p>
+                <ul>
+                    <li>Desconocimiento de la calidad real del aire en zonas residenciales</li>
+                    <li>Dificultad para detectar microzonas contaminadas</li>
+                    <li>Falta de herramientas para tomar decisiones locales</li>
+                </ul>
+                <p>ClimaBarrio resuelve esto creando una red densa, económica y escalable.</p>
+        </section>
+        <section id = "Dirigido">
+            <h2 class ="h2PRODUCTO">¿A quién va dirigido?🎯</h2>
+            <p>ClimaBarrio está diseñado para distintos perfiles que necesitan información ambiental precisa a nivel local.</p>
+            <h3>🏘 1️⃣ Ciudadanos y comunidades vecinales</h3>
+            <p>Los vecinos son los principales veneficiarios de este servicio.
+                <br><br>
+                Actualmente, la mayoria de personas no saben realmente:
+                <ul>
+                    <li>Qué calidad de aire respiran en su propio barrio</li>
+                    <li>Si su zona es más calurosa que otras (islas de calor)</li>
+                    <li>Si existen picos de contaminación en determinadas horas</li>
+                </ul>
+                <br>
+                Con <strong>ClimaBarrio</strong> pueden:
+                <ul>
+                    <li>Consultar datos en tiempo real</li>
+                    <li>Tomar decisiones sobre actividades al aire libre</li>
+                    <li>Concienciarse sobre el impacto ambiental de su entorno</li>
+                    <li>Participar en una red colaborativa de monitoreo</li>
+                </ul>
+            </p>
+            <h3>🏛 2️⃣ Ayuntamientos y administraciones locales</h3>
+            <p>Las administraciones necesitan datos precisos para diseñar politicas publicas eficaces
+                <br>
+                El problema actual es que:
+                <ul>
+                    <li>Las estaciones oficiales son pocas o muy generalales</li>
+                    <li>No detectan diferencias entre barrios</li>
+                    <li>No permite actuar de fortma localizada</li>
+                </ul>
+                <br>
+                <strong>ClimaBarrio</strong> permite:
+                <ul>
+                    <li>Identificar zonas con mayor contaminación</li>
+                    <li>Tomar decisiones basadas en datos reales</li>
+                    <li>Planificar zonas verdes o restricciones de trafico</li>
+                    <li>Evaluar el impacto de medidas medioambientales</li>
+                </ul>
+            </p>
+            <h3>🏫 3️⃣ Centros educativos</h3>
+            <p>ClimaBarrio tambien puede tener un enfoque educativo.
+                <br>
+                Puede utilizarse en:
+                <ul>
+                    <li>Institutos y colegios para proyectos como herramienta educativa dentro de proyectos que combine la Ciencia, Tecnología, Ingieneria y Matematicas </li>
+                    <li>Universidades para analisis de datos ambientales</li>
+                    <li>Talleres de concienciacion ecologica</li>
+                </ul>
+                <br>
+                Los estudiantes pueden:
+                <ul>
+                    <li>Analizar datos reales de su entorno</li>
+                    <li>Aprender sobre sensores y tecnologia LoT</li> <!--internet de las cosas: COMCEPTO QUE SE REFIERE A OBJETOS FISICOS QUE TIENE SENSORES, ESTAN CONCETADOS A INTERNET, RECOGEN DATOS...  como un apple watch que mide tus pulsaciones-->
+                    <li>Desarrollar proyectos basados en datos locales</li>
+                </ul>
+            </p>
+            <h3>🌱 4️⃣ Investigadores y organizaciones medioambientales</h3>
+            <p>Para estudios cientificos y analisis urbanos, los datos locales son fundamentales:
+                <br>
+                <strong>ClimaBarrio</strong> ofrece:
+                <ul>
+                    <li>Datos mas especificos </li>
+                    <li>Información mas concreta por barrios especificos</li>
+                    <li>Posiblidad de analisis comparativos</li>
+                    <li>Seguimiento de evolucion ambiental a largo plazo</li>
+                </ul>
+            </p>
+        </section>
+        <section id = "Actualidad">
+            <h2 class ="h2PRODUCTO"> ¿Por qué es necesario en la actualidad? 🕒</h2>
+            <p>Vivimos en un contexto donde los problemas medioambientales son cada vez más visibles y afectan directamente a la salud y calidad de vida de las personas.
+                <br>
+                <h3>🌡 1. Cambio climático y aumento de temperaturas</h3>
+                En los ultimos años se han registrados:
+                <ul>
+                    <li>Olas de calor más frecuentes</li>
+                    <li>Temperaturas récord en verano</li>
+                    <li>Diferencias térmicas entre barrios</li>
+                </ul>
+
+                Sin embargo, muchas veces solo existen datos generales de una ciudad, no de cada zona concreta.
+                <br><br>
+                <strong>ClimaBarrio</strong> permite detectar:
+                <ul>
+                    <li>Microclimas urbanos</li>
+                    <li>Zonas especialmente calurosas</li>
+                    <li>Diferencias reales entre barrios</li>
+                </ul>
+               Esto ayuda a tomar medidas como plantar más zonas verdes o adaptar espacios urbanos.
+            </p>
+            <h3>🌫 2. Contaminación y salud pública</h3>
+            <p>La contaminación del aire está relacionada con:
+
+                <ul>
+                    <li>Problemas respiratorios</li>
+                    <li>Aumento de alergias</li>
+                    <li>Enfermedades cardiovasculares</li>
+                </ul>
+                <br>
+                El problema es que las estaciones oficiales suelen ser pocas y no reflejan la realidad exacta de cada barrio.
+                <br><br>
+                <strong>ClimaBarrio</strong> aporta datos más precisos y localizados, permitiendo:
+                <ul>
+                    <li>Detectar picos de contaminación</li>
+                    <li>Informar a la población en tiempo real</li>
+                    <li>Apoyar decisiones sanitarias y urbanísticas</li>
+                </ul>
+            </p>
+
+            <h3>🏙 3. Crecimiento urbano desigual</h3>
+            <p>Las ciudades crecen rápidamente y no todos los barrios reciben el mismo nivel de monitorización ambiental.
+
+            Algunas zonas:
+            <ul>
+                <li>No tienen estaciones cercanas</li>
+                <li>No cuentan con datos actualizados</li>
+                <li>Quedan fuera de estudios oficiales</li>
+            </ul>
+            <br>
+            <strong>ClimaBarrio</strong> democratiza el acceso a la información ambiental, llevando la medición a cualquier zona, incluso rural o menos poblada.
+            </p>
+        </section>
+    </main>
 
     
 </body>

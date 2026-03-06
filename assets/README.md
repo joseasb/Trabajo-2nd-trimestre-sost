@@ -1,8 +1,48 @@
-# Proyecto SASP05 - Grupo X
+# Proyecto SASP05 - Grupo formado por Santiago Mefle, Alejandro Vega y Jose Andres Santos. 
 
 ## Descripción del producto o servicio
 
-[Describe aquí el producto o servicio digital que habéis creado, su finalidad, a quién va dirigido y cómo aplica principios de sostenibilidad y economía circular.]
+# 🌍 ClimaBarrio
+
+## 📌 Descripción del servicio
+
+**ClimaBarrio** es una red de microsensores ambientales de bajo coste instalados en barrios y zonas menos pobladas para medir en tiempo real variables como:
+
+- 🌡 Temperatura  
+- 💧 Humedad  
+- 🌫 Calidad del aire  
+- 🔊 Nivel de ruido  
+- 📊 Presión atmosférica  
+
+
+---
+
+## 🎯 Finalidad
+
+La finalidad de **ClimaBarrio** es:
+
+- Obtener datos ambientales precisos a nivel de barrio  
+- Detectar microclimas y focos de contaminación  
+- Facilitar la toma de decisiones basadas en datos    
+
+En definitiva, mejorar la calidad de vida mediante información ambiental accesible, local y en tiempo real.
+
+---
+
+## 👥 ¿A quién va dirigido?
+
+ClimaBarrio está dirigido a:
+
+- 🏘 Ciudadanos y comunidades vecinales  
+- 🏛 Ayuntamientos y administraciones locales  
+- 🏫 Centros educativos  
+- 🌱 Investigadores y organizaciones medioambientales  
+
+---
+
+
+
+---> cómo aplica principios de sostenibilidad y economía circular.
 
 ---
 
@@ -19,8 +59,8 @@
 | Integrante          | Tareas asignadas                                     |
 |---------------------|-----------------------------------------------------|
 | Alejandro Vega García  | Contenidos sobre sostenibilidad, desarrollo HTML pagina sostenibilidad  |
-| José Andrés Santos Balan   | presentación del servicio,      |
-| Santiago Mefle Ragel   | Contenidos sobre economía circular  |
+| José Andrés Santos Balan   | presentación del servicio y simulacion de la APP de ClimaBarrio |
+| Santiago Mefle Ragel   | Contenidos sobre economía circular   |
 
 ---
 
