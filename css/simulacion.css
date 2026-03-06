@@ -1,0 +1,92 @@
+/* Reset básico */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Fondo general tipo app */
+body{
+background:#f2f5f7;
+padding:30px;
+color:#333;
+}
+
+body .clima{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 60px;
+}
+
+/* Título principal */
+h1{
+text-align:center;
+margin-bottom:25px;
+font-size:28px;
+}
+
+/* Grid de sensores */
+#sensores{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+gap:20px;
+}
+
+/* Tarjeta sensor */
+.panel{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* efecto hover tipo app */
+.panel:hover{
+transform:translateY(-4px);
+box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* nombre barrio */
+.panel h3{
+margin-bottom:12px;
+font-size:18px;
+color:#1f3c5c;
+}
+
+/* datos sensor */
+.panel p{
+margin:6px 0;
+font-size:15px;
+}
+
+/* alerta base */
+.alerta{
+margin-top:10px;
+font-weight:600;
+font-size:14px;
+}
+
+/* colores alertas */
+.alerta-verde{
+color:#2e7d32;
+}
+
+.alerta-amarilla{
+color:#f9a825;
+}
+
+.alerta-roja{
+color:#c62828;
+}
+
+/* barra superior de actualización */
+#ultimaActualizacion{
+margin-bottom:20px;
+text-align:center;
+font-size:24px;
+color:#666;
+}
+
