@@ -1,4 +1,4 @@
-# Proyecto SASP05 - Grupo X
+# Proyecto SASP05 - Grupo formado por Santiago Mefle, Alejandro Vega y Jose Andres Santos. 
 
 ## Descripción del producto o servicio
 
@@ -59,8 +59,8 @@ ClimaBarrio está dirigido a:
 | Integrante          | Tareas asignadas                                     |
 |---------------------|-----------------------------------------------------|
 | Alejandro Vega García  | Contenidos sobre sostenibilidad, desarrollo HTML pagina sostenibilidad  |
-| José Andrés Santos Balan   | presentación del servicio,      |
-| Santiago Mefle Ragel   | Contenidos sobre economía circular  |
+| José Andrés Santos Balan   | presentación del servicio y simulacion de la APP de ClimaBarrio |
+| Santiago Mefle Ragel   | Contenidos sobre economía circular   |
 
 ---
 
