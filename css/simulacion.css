@@ -20,6 +20,25 @@ body .clima{
   font-size: 60px;
 }
 
+.volver-contenedor{
+  margin-top:40px;
+  text-align:center;
+}
+
+.btn-volver{
+  padding:12px 25px;
+  background:#2c7be5;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:600;
+
+}
+
+.btn-volver:hover{
+  background:#1a5ec2;
+}
+
 /* Título principal */
 h1{
 text-align:center;

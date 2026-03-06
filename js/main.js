@@ -37,11 +37,11 @@ function ValidarCorreo() {
 if(!correo.checkValidity()){
     correo.reportValidity();
     return false;
-} else{
-  return true;
-}
+} 
 
-  /*const corrVal= correo.value;
+
+
+  const corrVal= correo.value;
   // 1. Debe contener un @
   const posArroba = corrVal.indexOf("@");
   if (posArroba === -1) return false;
@@ -62,7 +62,7 @@ if(!correo.checkValidity()){
   // 6. No puede haber espacios
   if (corrVal.includes(" ")) return false;
 
-  return true;*/
+  return true;
 }
 
 function ValidarTexto(){
