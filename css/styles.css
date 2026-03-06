@@ -131,7 +131,7 @@ main {
 
 #lista li a:hover {
     background-color: #e8f5e9;
-    padding-left: 30px;
+    transform: translateX(10px); /*Antes padding-left: 30px; , cambiado por ecodiseño, transform se realiza en GPU reduciendo energía*/
     color: #1b5e20;
 }
 
@@ -184,7 +184,11 @@ strong {
 
 /* ===== DISTRIBUCIÓN TEXTO-IMÁGENES =====*/
 
+<<<<<<< ramaAle
 .bloque {
+=======
+.bloque,.bloque_invertido{ /*Juntados los dos para hacerlo más sencillo de mantener(ecodiseño)*/
+>>>>>>> main
     display: flex;
     align-items: center;
     gap: 20px;
@@ -199,6 +203,7 @@ strong {
     order: 2;
 }
 
+<<<<<<< ramaAle
 .bloque_invertido {
     display: flex;
     align-items: center;
@@ -208,6 +213,10 @@ strong {
 
 .bloque_invertido .texto {
     order: 2;
+=======
+.bloque_invertido .texto{
+    order:2;
+>>>>>>> main
 }
 
 .bloque_invertido img {
@@ -327,6 +336,7 @@ section img {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< ramaAle
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     #headerEC h1 {
@@ -370,4 +380,11 @@ html {
     border: 3px solid #e8f5e9;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+=======
+/* ===== RESPONSIVE ===== */ /*Este bloque sirve para móviles, redimensiona en teléfonos*/
+@media (max-width: 768px) { /*Si la pantalla es de 786px o más pequeña hace lo siguiente*/
+    #headerEC h1 { font-size: 2rem; }
+    .menu #lista-puntos { gap: 8px; }
+    .menu #lista-puntos a { font-size: 0.9rem; padding: 8px 12px; }
+>>>>>>> main
 }
