@@ -90,10 +90,11 @@ En resumen, cumplimos con el uso eficiente de recursos, el diseño inteligente y
 
 ## Enlace a la web publicada
 
-[https://tu-usuario.github.io/sasp05-proyecto-grupoX/](https://tu-usuario.github.io/sasp05-proyecto-grupoX/)
+[https://joseasb.github.io/Trabajo-2nd-trimestre-sost/](https://joseasb.github.io/Trabajo-2nd-trimestre-sost/)
 
 ---
 
 *Este proyecto forma parte del módulo SASP05 y ha sido desarrollado con enfoque en sostenibilidad y economía circular.*
+
 
 # Trabajo-2nd-trimestre-sost
