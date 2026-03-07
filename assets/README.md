@@ -44,6 +44,15 @@ ClimaBarrio está dirigido a:
 
 ---> cómo aplica principios de sostenibilidad y economía circular.
 
+## Principios de economía circular 
+
+- Además de su bajo coste, con los datos que recaba se puede reducir el gasto innecesario, el uso de materiales y las obras.
+- Está pensado para que al final de su vida útil se pueda desmontar facílmente para posterior reciclado
+- ClimaBarrio es un servicio, no un producto, mantenemos los sensores el mayor tiempo posible, aprovechando los recursos de la fabricación al máximo y reduciendo la generación de residuos.
+
+En resumen, cumplimos con el uso eficiente de recursos, el diseño inteligente y los ciclos cerrados
+
+
 ---
 
 ## Integrantes del grupo
@@ -60,7 +69,7 @@ ClimaBarrio está dirigido a:
 |---------------------|-----------------------------------------------------|
 | Alejandro Vega García  | Contenidos sobre sostenibilidad, desarrollo HTML pagina sostenibilidad  |
 | José Andrés Santos Balan   | presentación del servicio y simulacion de la APP de ClimaBarrio |
-| Santiago Mefle Ragel   | Contenidos sobre economía circular   |
+| Santiago Mefle Ragel   | Contenidos sobre economía circular e index  |
 
 ---
 
