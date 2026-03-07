@@ -41,7 +41,7 @@ ClimaBarrio está dirigido a:
 ---
 
 ---> cómo aplica principios de sostenibilidad y economía circular.
-### Aplicación de los principios de sostenibilidad
+## Aplicación de los principios de sostenibilidad
 
 El proyecto ClimaBarrio aplica principios de sostenibilidad mediante el uso de sensores que recopilan datos ambientales como temperatura, calidad del aire, humedad y ruido en distintos barrios. Esta información permite conocer mejor el estado del entorno y ayudar a tomar decisiones para mejorar la calidad ambiental.
 
