@@ -269,6 +269,12 @@ section .h2PRODUCTO {
     font-family: "Segoe UI", sans-serif;
 }
 
+#formulario legend h3{
+    font-size:24px;
+    font-weight: bold;
+    border:none;
+}
+
 #formulario input,
 #formulario textarea {
     width: 100%;

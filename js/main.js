@@ -40,7 +40,7 @@ if(!correo.checkValidity()){
 } 
 
 
-
+ /*
   const corrVal= correo.value;
   // 1. Debe contener un @
   const posArroba = corrVal.indexOf("@");
@@ -62,7 +62,7 @@ if(!correo.checkValidity()){
   // 6. No puede haber espacios
   if (corrVal.includes(" ")) return false;
 
-  return true;
+  return true; */
 }
 
 function ValidarTexto(){
