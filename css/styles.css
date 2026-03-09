@@ -179,7 +179,6 @@ strong {
 
 .bloque,
 .bloque,.bloque_invertido{ /*Juntados los dos para hacerlo más sencillo de mantener(ecodiseño)*/
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -194,18 +193,8 @@ strong {
     order: 2;
 }
 
-
-.bloque_invertido {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-
 .bloque_invertido .texto{
     order:2;
-
 }
 
 .bloque_invertido img {

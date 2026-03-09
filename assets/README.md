@@ -40,9 +40,14 @@ ClimaBarrio está dirigido a:
 
 ---
 
-
-
 ---> cómo aplica principios de sostenibilidad y economía circular.
+## Aplicación de los principios de sostenibilidad
+
+El proyecto ClimaBarrio aplica principios de sostenibilidad mediante el uso de sensores que recopilan datos ambientales como temperatura, calidad del aire, humedad y ruido en distintos barrios. Esta información permite conocer mejor el estado del entorno y ayudar a tomar decisiones para mejorar la calidad ambiental.
+
+Además, los sensores están pensados para tener un bajo consumo energético y utilizar materiales reciclables, reduciendo así su impacto ambiental. Gracias a estos datos, tanto ciudadanos como administraciones pueden detectar problemas ambientales y promover acciones para mejorar la sostenibilidad de la ciudad.
+
+---
 
 ## Principios de economía circular 
 
@@ -51,7 +56,6 @@ ClimaBarrio está dirigido a:
 - ClimaBarrio es un servicio, no un producto, mantenemos los sensores el mayor tiempo posible, aprovechando los recursos de la fabricación al máximo y reduciendo la generación de residuos.
 
 En resumen, cumplimos con el uso eficiente de recursos, el diseño inteligente y los ciclos cerrados
-
 
 ---
 
@@ -86,10 +90,11 @@ En resumen, cumplimos con el uso eficiente de recursos, el diseño inteligente y
 
 ## Enlace a la web publicada
 
-[https://tu-usuario.github.io/sasp05-proyecto-grupoX/](https://tu-usuario.github.io/sasp05-proyecto-grupoX/)
+[https://joseasb.github.io/Trabajo-2nd-trimestre-sost/](https://joseasb.github.io/Trabajo-2nd-trimestre-sost/)
 
 ---
 
 *Este proyecto forma parte del módulo SASP05 y ha sido desarrollado con enfoque en sostenibilidad y economía circular.*
+
 
 # Trabajo-2nd-trimestre-sost
