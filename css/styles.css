@@ -17,10 +17,6 @@ main {
     margin: 40px auto;
     padding: 30px;
     background-color: rgba(255, 248, 240, 0.96);
-
-
-    /* Fondo crema claro */
-
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
@@ -34,8 +30,6 @@ main {
     align-items: center;
     padding: 2.5rem 2rem;
     background-color: #4CAF50;
-    /* Verde Naturaleza */
-
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -44,10 +38,8 @@ main {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
-
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     color: white;
-
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     color: #ffffff;
 
@@ -187,7 +179,6 @@ strong {
 
 .bloque,
 .bloque,.bloque_invertido{ /*Juntados los dos para hacerlo más sencillo de mantener(ecodiseño)*/
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -202,18 +193,8 @@ strong {
     order: 2;
 }
 
-
-.bloque_invertido {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-
 .bloque_invertido .texto{
     order:2;
-
 }
 
 .bloque_invertido img {
@@ -383,22 +364,4 @@ html {
     border: 3px solid #e8f5e9;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
-}
-/* ===== RESPONSIVE ===== */ /*Este bloque sirve para móviles, redimensiona en teléfonos*/
-/* ==== RESPONSIVE ==== */
-@media (max-width: 768px) {
-
-#headerEc h1 {
-font-size: 2rem;
-}
-
-.menu #lista-puntos {
-gap: 8px;
-}
-
-.menu #lista-puntos a {
-font-size: 0.9rem;
-padding: 8px 12px;
-}
-
 }
