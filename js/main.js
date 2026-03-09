@@ -37,7 +37,9 @@ function ValidarCorreo() {
 if(!correo.checkValidity()){
     correo.reportValidity();
     return false;
-} 
+}else{
+  return true;
+}
 
 
  /*
